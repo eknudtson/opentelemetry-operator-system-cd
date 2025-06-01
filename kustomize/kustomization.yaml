@@ -19,3 +19,6 @@ helmCharts:
         enabled: false
     manager:
       createRbacPermissions: true
+
+resources:
+- jaeger.yaml
