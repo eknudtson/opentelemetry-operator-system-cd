@@ -17,3 +17,5 @@ helmCharts:
     admissionWebhooks:
       autoGenerateCert:
         enabled: false
+    manager:
+      createRbacPermissions: true
